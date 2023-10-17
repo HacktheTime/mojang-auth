@@ -27,6 +27,8 @@ public class Client {
 //TODO            Do exeption code here (you)
         }
     }
+//this is for entire serverid. you cant use this for both sides! if you want to make both sides in addition etc, replace the 128 through 64 to half the string. otherwise its too long and you never get an verify
+
 
     public String randomStringGenerator(){
         // Source for this: https://github.com/NotEnoughUpdates/NotEnoughUpdates/blob/master/src/main/java/io/github/moulberry/notenoughupdates/cosmetics/GuiCosmetics.java
